@@ -1,0 +1,233 @@
+*{
+    overflow-y: auto;
+    
+}
+
+#root {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(15, 23, 42);
+    color: rgb(255, 255, 255);
+    overflow-y: auto; /* Add this line */
+    padding-bottom: 50px; /* Adjust the value to accommodate the footer height */
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header_icons i{
+    margin-right: 0.5rem;
+    border-radius: 9999px;
+    padding: 0.75rem;
+    background-color: rgb(30 41 59);
+}
+
+
+.ToolBar{
+    margin: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bg-image{
+    height: 14rem;
+    width: 11rem ;
+    position: relative;
+
+}
+
+.bg-image img{
+    display: block;
+    height: 14rem;
+    width: 11rem;
+    border-radius: 1.5rem;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+  }
+  
+.overlay img{
+    margin: 0;
+    height: 1.7rem;
+    width: 1.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.switch{
+    display: flex;
+    background-color: rgb(30 41 59);
+    justify-content: center;
+    margin :2rem;
+    height: 48px;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+  
+.switch1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(59 130 246) ;
+    width: 100%;
+    border-radius: 1.7rem;
+    overflow: hidden;
+}
+.switch2{
+    text-align: center;
+    width: 100%;
+    scroll-behavior: auto;
+    overflow: hidden;
+}
+
+.icons{
+    margin: 10px;
+}
+
+.reactIcons i {
+    margin-right: 10px;
+}
+
+.about{
+    background-color: rgb(30 41 59);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 6rem;
+    border-radius: 20px;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about img{
+    width: 100%;
+    height: 400px;
+}
+
+.aboutResponse {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+.separator {
+    margin: 0 5px;
+}
+
+.aboutMe {
+    display: flex;
+}
+  
+.name, .description {
+    margin: 0;
+}
+  
+.name {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.left{
+    display: flex;
+}
+
+.left img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid rgb(59, 130, 246);
+    border-radius: 50%; 
+    margin: 10px;
+}
+
+.leftAbout{
+    margin-left: 10px;
+}
+
+.lastSeen{
+    color: rgb(148 163 184);
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.right{
+    margin: 25px;
+}
+
+.right i{
+    background-color: rgb(51 65 85);
+    border-radius: 9999px;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(30 41 59);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-radius: 10px;
+    height: 60px;
+  }
+  
+  .footer_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    
+  }
+
+ 
+
+  .plusIcon{
+    display: flex;
+    position: absolute;
+    height: 3.5rem;
+    width: 3.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(59, 130, 246);
+    border-radius: 50%; 
+  }
